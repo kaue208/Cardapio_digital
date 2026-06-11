@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lavishly+Yours&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #bf731c;
+    padding: 5px;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 190px;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    position: absolute;
+    left: 75%;
+}
+
+nav img {
+    transition: transform 0.2s ease-in-out;
+}
+
+nav img:hover {
+    transform: scale(1.1);
+}
+
+main {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1 {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: "Lavishly Yours", cursive;
+    font-weight: 400;
+    font-size: 40pt;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.produto {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.produto img {
+    width: 250px;
+}
+
+.produto_container {
+    background-color: aliceblue;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #dd9440;
+}
+
+.produto_container img {
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.produto_container img:hover {
+    transform: scale(1.05);
+}
+
+.produto_container {
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+
+dialog {
+    position: fixed;
+    width: 70%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    overflow: hidden;
+    border: none;
+    box-shadow: 1px 1px 10px rgb(99, 90, 72);
+    border-radius: 10px;
+    margin-left: -20px;
+}
+
+.conteudo_sobre {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: "Josefin Sans";
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.conteudo_sobre input {
+    background-color: #dd9440;
+    border: none;
+    color: white;
+    font-family: "Josefin Sans";
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.conteudo_sobre input:hover {
+    background-color: #bf731c;
+}
+
